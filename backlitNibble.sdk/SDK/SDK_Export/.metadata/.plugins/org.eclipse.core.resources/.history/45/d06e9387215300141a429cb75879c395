@@ -1,0 +1,42 @@
+
+
+/***************************** Include Files *******************************/
+#include "backlitLCD.h"
+
+/************************** Function Definitions ***************************/
+
+u32 outBits(lcd screen) {
+//	xil_printf( "rs: 0x%01x\n", screen.rs );
+//	xil_printf( "rw: 0x%01x\n", screen.rw );
+//	xil_printf( "en: 0x%01x\n", screen.en );
+//	xil_printf( "db: 0x%02x\n", screen.db );
+	u32 allTogether = ( (screen.db << 17) | (screen.level << 9) | (screen.write ));
+	return  allTogether;
+}
+
+void writeChar(){
+
+}
+
+void delay(numCycles){
+	volatile int Delay;
+	for (Delay = 0; Delay < numCycles; Delay++);
+}
+
+void INIT_LCD (lcd screen) {
+	// Start: LCD is already powered on atleast 15ms
+	// Write rs = 0 rw = 0 db5 = 1 db4 = 1
+	u32 data =outBits(screen);
+	BACKLITLCD_mWriteReg( XPAR_BACKLITLCD_0_S_AXI_BASEADDRs, 0, data);
+	// Wait > 4.1ms
+
+	// Write rs = 0 rw = 0 db5 = 1 db4 = 1
+
+	// Wait > 100us
+
+	// Write rs = 0 rw = 0 db5 = 1 db4 = 1
+
+	// Wait a little tiny bit
+
+	//
+}

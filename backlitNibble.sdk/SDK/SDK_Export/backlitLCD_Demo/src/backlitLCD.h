@@ -1,0 +1,150 @@
+
+#ifndef BACKLITLCD_H
+#define BACKLITLCD_H
+
+
+/****************** Include Files ********************/
+#include "xil_types.h"
+#include "xstatus.h"
+#include "xparameters.h"
+#include "xil_io.h"
+#define BACKLITLCD_S_AXI_SLV_REG0_OFFSET 0
+#define BACKLITLCD_S_AXI_SLV_REG1_OFFSET 4
+#define BACKLITLCD_S_AXI_SLV_REG2_OFFSET 8
+#define BACKLITLCD_S_AXI_SLV_REG3_OFFSET 12
+
+
+/**************************** Type Definitions *****************************/
+/**
+ *
+ * Write a value to a BACKLITLCD register. A 32 bit write is performed.
+ * If the component is implemented in a smaller width, only the least
+ * significant data is written.
+ *
+ * @param   BaseAddress is the base address of the BACKLITLCDdevice.
+ * @param   RegOffset is the register offset from the base to write to.
+ * @param   Data is the data written to the register.
+ *
+ * @return  None.
+ *
+ * @note
+ * C-style signature:
+ * 	void BACKLITLCD_mWriteReg(u32 BaseAddress, unsigned RegOffset, u32 Data)
+ *
+ */
+#define BACKLITLCD_mWriteReg(BaseAddress, RegOffset, Data) \
+  	Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+
+/**
+ *
+ * Read a value from a BACKLITLCD register. A 32 bit read is performed.
+ * If the component is implemented in a smaller width, only the least
+ * significant data is read from the register. The most significant data
+ * will be read as 0.
+ *
+ * @param   BaseAddress is the base address of the BACKLITLCD device.
+ * @param   RegOffset is the register offset from the base to write to.
+ *
+ * @return  Data is the data from the register.
+ *
+ * @note
+ * C-style signature:
+ * 	u32 BACKLITLCD_mReadReg(u32 BaseAddress, unsigned RegOffset)
+ *
+ */
+#define BACKLITLCD_mReadReg(BaseAddress, RegOffset) \
+    Xil_In32((BaseAddress) + (RegOffset))
+
+/************************** Function Prototypes ****************************/
+/**
+ *
+ * Run a self-test on the driver/device. Note this may be a destructive test if
+ * resets of the device are performed.
+ *
+ * If the hardware system is not built correctly, this function may never
+ * return to the caller.
+ *
+ * @param   baseaddr_p is the base address of the BACKLITLCD instance to be worked on.
+ *
+ * @return
+ *
+ *    - XST_SUCCESS   if all self-test code passed
+ *    - XST_FAILURE   if any self-test code failed
+ *
+ * @note    Caching must be turned off for this function to work.
+ * @note    Self test may fail if data memory and device are not on the same bus.
+ *
+ */
+XStatus BACKLITLCD_Reg_SelfTest(void * baseaddr_p);
+
+/*
+The following code for the LCD was taken from the lcd reference file on the xilinx website
+For the complete code see http://www.xilinx.com/products/boards/s3estarter/reference_designs.htm
+*/
+
+/* define a structure with bit fields */
+typedef struct
+{
+  unsigned int write : 1;
+  unsigned int level : 8;
+  unsigned int db : 8;
+} lcd;
+
+
+//internal funtions
+void DisplayOnOff(int D,int C,int B);
+void EntryMode (int I_d,int S);
+void Delay10ms();
+void FunctionSet(int MODE,int DL,int N,int F);
+void WriteData(int Data);
+void SetDDRAM(int Addr);
+
+//////////////////////user functions///////////////////
+//initializes lcd
+void INIT_LCD (lcd screen);
+
+//clears display
+void DisplayClear();
+
+/*
+sets lcd cursor to coordinates
+y =1 for top row, 2 for bottom row
+x can be between 1 and 16.
+anything outside of lcd range is not printed
+*/
+void SetCursor(int y,int x);
+
+/*
+prints character to lcd at current location of cursor
+if the input runs out of space, characters outside of range will not be printed
+cursor is moved to spot after character
+input
+	CH - character
+returns
+	nothing
+*/
+void PutChar(char CH);
+
+/*
+writes char string to lcd at current location of cursor
+if the input runs out of space, characters outside of range will not be printed
+cursor is moved to end of string
+input
+	STR - character array
+returns
+	nothing
+*/
+void WriteString(char*STR);
+
+/*
+writes integer to lcd at current location of cursor
+if the input runs out of space, characters outside of range will not be printed
+cursor is moved to end of number
+input
+	a - integer can be positive or negative
+returns
+	nothing
+*/
+void WriteInt(int a);
+
+#endif // BACKLITLCD_H

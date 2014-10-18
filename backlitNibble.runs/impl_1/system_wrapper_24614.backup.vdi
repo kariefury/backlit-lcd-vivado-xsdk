@@ -1,0 +1,527 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Tue Oct  7 14:16:07 2014
+# Process ID: 23486
+# Log file: /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.runs/impl_1/system_wrapper.vdi
+# Journal file: /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 147 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Loading clock regions from /ece/Xilinx/2014.1/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from /ece/Xilinx/2014.1/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from /ece/Xilinx/2014.1/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /ece/Xilinx/2014.1/Vivado/2014.1/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /ece/Xilinx/2014.1/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from /ece/Xilinx/2014.1/Vivado/2014.1/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /ece/Xilinx/2014.1/Vivado/2014.1/data/parts/xilinx/artix7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0.xdc] for cell 'system_i/microblaze_0/U0'
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0.xdc] for cell 'system_i/microblaze_0/U0'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0.xdc] for cell 'system_i/microblaze_0_local_memory/dlmb_v10/U0'
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0.xdc] for cell 'system_i/microblaze_0_local_memory/dlmb_v10/U0'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0.xdc] for cell 'system_i/microblaze_0_local_memory/ilmb_v10/U0'
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0.xdc] for cell 'system_i/microblaze_0_local_memory/ilmb_v10/U0'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0.xdc] for cell 'system_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0.xdc] for cell 'system_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc] for cell 'system_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1463.707 ; gain = 381.445
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc] for cell 'system_i/mdm_1/U0'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc] for cell 'system_i/clk_wiz_1/inst'
+INFO: [Timing 38-2] Deriving generated clocks [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc:56]
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc] for cell 'system_i/clk_wiz_1/inst'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_board.xdc] for cell 'system_i/clk_wiz_1/inst'
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_board.xdc] for cell 'system_i/clk_wiz_1/inst'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0.xdc] for cell 'system_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0.xdc] for cell 'system_i/rst_clk_wiz_1_100M'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0_board.xdc] for cell 'system_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0_board.xdc] for cell 'system_i/rst_clk_wiz_1_100M'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0.xdc] for cell 'system_i/axi_timer_0'
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0.xdc] for cell 'system_i/axi_timer_0'
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[8]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:225]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:225]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[8]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:226]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:226]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[9]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:228]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:228]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[9]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:229]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:229]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[10]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:231]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:231]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[10]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:232]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:232]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[0]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:269]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:269]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[0]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:270]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:270]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[1]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:272]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:272]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[1]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:273]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:273]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[2]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:275]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:275]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[2]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:276]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:276]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[3]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:278]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:278]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[3]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:279]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:279]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[4]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:281]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:281]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[4]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:282]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:282]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[5]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:284]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:284]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[5]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:285]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:285]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[6]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:287]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:287]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[6]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:288]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:288]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[7]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:290]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:290]
+WARNING: [Vivado 12-584] No ports matched 'lcd_tri_io[7]'. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:291]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc:291]
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc]
+Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_clocks.xdc] for cell 'system_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_clocks.xdc] for cell 'system_i/microblaze_0_axi_intc/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Generating merged BMM file for the design top 'system_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 80 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 16 instances
+
+link_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 1473.715 ; gain = 655.641
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.46 ; elapsed = 00:00:00.58 . Memory (MB): peak = 1473.742 ; gain = 0.000
+
+Starting Logic Optimization Task
+INFO: [Timing 38-2] Deriving generated clocks
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 216905903
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1473.742 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 47 inverter(s).
+INFO: [Opt 31-10] Eliminated 96 cells.
+Phase 2 Constant Propagation | Checksum: 236c06ad3
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1473.742 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 843 unconnected nets.
+INFO: [Opt 31-11] Eliminated 4782 unconnected cells.
+Phase 3 Sweep | Checksum: 2b2ee7298
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1473.742 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 2b2ee7298
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1473.742 ; gain = 0.000
+Implement Debug Cores | Checksum: 13227a072
+Logic Optimization | Checksum: 13227a072
+
+Starting Power Optimization Task
+
+Starting PowerOpt TimerUpdates Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending PowerOpt TimerUpdates Task | Checksum: 2b2ee7298
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.60 . Memory (MB): peak = 1473.742 ; gain = 0.000
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 16 has been updated to save power.
+    Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 32
+Ending Power Optimization Task | Checksum: 2b2ee7298
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1575.723 ; gain = 101.980
+INFO: [Common 17-83] Releasing license: Implementation
+27 Infos, 22 Warnings, 22 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1575.723 ; gain = 102.008
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.36 . Memory (MB): peak = 1575.730 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1575.758 ; gain = 0.000
+
+Phase 1.1.1 Mandatory Logic Optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1575.758 ; gain = 0.000
+Phase 1.1.1 Mandatory Logic Optimization | Checksum: fdc349ae
+
+Time (s): cpu = 00:00:00.33 ; elapsed = 00:00:00.45 . Memory (MB): peak = 1575.758 ; gain = 0.000
+
+Phase 1.1.2 Build Super Logic Region (SLR) Database
+Phase 1.1.2 Build Super Logic Region (SLR) Database | Checksum: fdc349ae
+
+Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.49 . Memory (MB): peak = 1575.758 ; gain = 0.000
+
+Phase 1.1.3 Add Constraints
+Phase 1.1.3 Add Constraints | Checksum: fdc349ae
+
+Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.49 . Memory (MB): peak = 1575.758 ; gain = 0.000
+
+Phase 1.1.4 Build Shapes/ HD Config
+
+Phase 1.1.4.1 Build Macros
+Phase 1.1.4.1 Build Macros | Checksum: 144d895d9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1585.727 ; gain = 9.969
+Phase 1.1.4 Build Shapes/ HD Config | Checksum: 144d895d9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.5.1 Pre-Place Cells
+Phase 1.1.5.1 Pre-Place Cells | Checksum: 10a56142
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 1.1.5.2 Implementation Feasibility check
+Phase 1.1.5.2 Implementation Feasibility check | Checksum: 10a56142
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1585.727 ; gain = 9.969
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.5.3 Implementation Feasibility check On IDelay
+Phase 1.1.5.3 Implementation Feasibility check On IDelay | Checksum: 10a56142
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1585.727 ; gain = 9.969
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device | Checksum: dd521798
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 1.1.6 Build Placer Netlist Model
+
+Phase 1.1.6.1 Place Init Design
+
+Phase 1.1.6.1.1 Build Clock Data
+Phase 1.1.6.1.1 Build Clock Data | Checksum: 12bd3be5c
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1585.727 ; gain = 9.969
+Phase 1.1.6.1 Place Init Design | Checksum: 185c49a42
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1585.727 ; gain = 9.969
+Phase 1.1.6 Build Placer Netlist Model | Checksum: 185c49a42
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 1.1.7 Constrain Clocks/Macros
+
+Phase 1.1.7.1 Constrain Global/Regional Clocks
+Phase 1.1.7.1 Constrain Global/Regional Clocks | Checksum: 185c49a42
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1585.727 ; gain = 9.969
+Phase 1.1.7 Constrain Clocks/Macros | Checksum: 185c49a42
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1585.727 ; gain = 9.969
+Phase 1.1 Placer Initialization Core | Checksum: 185c49a42
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1585.727 ; gain = 9.969
+Phase 1 Placer Initialization | Checksum: 185c49a42
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 13dbde054
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 13dbde054
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: d5ae0f0a
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: b7b31e33
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 3.4 Timing Path Optimizer
+Phase 3.4 Timing Path Optimizer | Checksum: 11aa171d8
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:22 . Memory (MB): peak = 1585.727 ; gain = 9.969
+
+Phase 3.5 Commit Small Macros & Core Logic
+Phase 3.5 Commit Small Macros & Core Logic | Checksum: 1fda78a92
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:24 . Memory (MB): peak = 1595.730 ; gain = 19.973
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 1fda78a92
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1595.730 ; gain = 19.973
+Phase 3 Detail Placement | Checksum: 1fda78a92
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1595.730 ; gain = 19.973
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 PCOPT Shape updates
+Phase 4.1 PCOPT Shape updates | Checksum: 2b77e74bc
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:24 . Memory (MB): peak = 1595.730 ; gain = 19.973
+
+Phase 4.2 Post Placement Optimization
+
+Phase 4.2.1 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=2.750. For the most accurate timing information please run report_timing.
+Phase 4.2.1 Post Placement Timing Optimization | Checksum: 23e9bd701
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:25 . Memory (MB): peak = 1595.730 ; gain = 19.973
+Phase 4.2 Post Placement Optimization | Checksum: 23e9bd701
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:25 . Memory (MB): peak = 1595.730 ; gain = 19.973
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 23e9bd701
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:25 . Memory (MB): peak = 1595.730 ; gain = 19.973
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: 23e9bd701
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:25 . Memory (MB): peak = 1595.730 ; gain = 19.973
+Phase 4.4 Placer Reporting | Checksum: 23e9bd701
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:26 . Memory (MB): peak = 1595.730 ; gain = 19.973
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 23e1304b4
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:26 . Memory (MB): peak = 1595.730 ; gain = 19.973
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 23e1304b4
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:26 . Memory (MB): peak = 1595.730 ; gain = 19.973
+Ending Placer Task | Checksum: 1d3be2b83
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:26 . Memory (MB): peak = 1595.730 ; gain = 19.973
+INFO: [Common 17-83] Releasing license: Implementation
+38 Infos, 22 Warnings, 22 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:27 . Memory (MB): peak = 1595.730 ; gain = 20.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.63 ; elapsed = 00:00:00.66 . Memory (MB): peak = 1595.738 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.24 . Memory (MB): peak = 1595.738 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: ef9bffc1
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:40 . Memory (MB): peak = 1670.402 ; gain = 74.637
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: ef9bffc1
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:40 . Memory (MB): peak = 1670.406 ; gain = 74.641
+ Number of Nodes with overlaps = 0
+
+Phase 2.2 Update Timing
+Phase 2.2 Update Timing | Checksum: cd828961
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:44 . Memory (MB): peak = 1692.668 ; gain = 96.902
+INFO: [Route 35-57] Estimated Timing Summary | WNS=2.81   | TNS=0      | WHS=-0.236 | THS=-159   |
+
+Phase 2 Router Initialization | Checksum: cd828961
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:46 . Memory (MB): peak = 1692.668 ; gain = 96.902
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 15c3e7d59
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:50 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 448
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 17c646b2b
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:52 . Memory (MB): peak = 1705.668 ; gain = 109.902
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.26   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 12ec9ae40
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:52 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 13472938e
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:00:53 . Memory (MB): peak = 1705.668 ; gain = 109.902
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.26   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 13472938e
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:00:53 . Memory (MB): peak = 1705.668 ; gain = 109.902
+Phase 4 Rip-up And Reroute | Checksum: 13472938e
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:00:53 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: 13472938e
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:53 . Memory (MB): peak = 1705.668 ; gain = 109.902
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.34   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 5 Delay CleanUp | Checksum: 13472938e
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:53 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Phase 6 Clock Skew Optimization
+Phase 6 Clock Skew Optimization | Checksum: 13472938e
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:53 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 13472938e
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:55 . Memory (MB): peak = 1705.668 ; gain = 109.902
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.34   | TNS=0      | WHS=0.0286 | THS=0      |
+
+Phase 7 Post Hold Fix | Checksum: 13472938e
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:55 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.72046 %
+  Global Horizontal Routing Utilization  = 1.00703 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 13472938e
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:55 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 13472938e
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:55 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 14da71e0a
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:55 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.34   | TNS=0      | WHS=0.0286 | THS=0      |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: 14da71e0a
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:56 . Memory (MB): peak = 1705.668 ; gain = 109.902
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: 14da71e0a
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:56 . Memory (MB): peak = 1705.668 ; gain = 109.902
+
+Routing Is Done.
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:56 . Memory (MB): peak = 1705.668 ; gain = 109.902
+INFO: [Common 17-83] Releasing license: Implementation
+52 Infos, 22 Warnings, 22 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:12 ; elapsed = 00:00:58 . Memory (MB): peak = 1705.668 ; gain = 109.930
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.89 ; elapsed = 00:00:00.96 . Memory (MB): peak = 1705.676 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.runs/impl_1/system_wrapper_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1705.676 ; gain = 0.000
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  7 14:18:57 2014...

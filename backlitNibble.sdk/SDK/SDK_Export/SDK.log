@@ -1,0 +1,374 @@
+15:18:45 INFO  : Processing command line option -hwspec /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+15:39:58 INFO  : Refreshed build settings on project backlitLCD_Demo
+15:58:33 INFO  : No changes in MSS file content so not generating sources.
+16:00:43 INFO  : Saving repository preferences.
+16:00:43 INFO  : Reading in cores from local repositories: 
+		 /usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0/drivers/backlitLCD_v1_0
+16:00:43 INFO  : Cleaning BSP projects in the workspace.
+16:00:52 INFO  : Saving repository preferences.
+16:01:24 INFO  : No changes in MSS file content so not generating sources.
+14:53:25 INFO  : Project hw_platform_0's source hardware specification located at /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+14:54:25 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+14:54:31 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+14:54:36 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+14:54:42 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:54:44 INFO  : 
+14:54:44 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+14:54:45 INFO  : Clearing existing target manager status.
+14:54:46 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+14:54:51 INFO  : Closing and re-opening the MSS file of ther project backlitLCD_Demo_bsp
+14:54:52 INFO  : Closing and re-opening the MSS file of ther project backlitLCD_Demo_bsp
+14:54:52 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:58:02 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+15:00:20 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:01:19 INFO  : Processing command line option -hwspec /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+15:01:25 INFO  : The hardware specification for project 'hw_platform_0' is different from /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+15:01:25 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+15:01:26 INFO  : Restoring local repository preferences: 
+		 /usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0/drivers/backlitLCD_v1_0
+15:01:34 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+15:01:34 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+15:01:35 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:01:41 INFO  : 
+15:01:43 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+15:01:43 INFO  : Clearing existing target manager status.
+15:01:43 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+15:02:35 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+15:03:07 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:10:45 INFO  : Processing command line option -hwspec /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+15:10:51 INFO  : Restoring local repository preferences: 
+		 /usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0/drivers/backlitLCD_v1_0
+15:11:03 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+15:11:39 INFO  : Processor reset is completed for microblaze_0
+15:11:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:11:59 INFO  : Processor reset is completed for microblaze_0
+15:13:04 INFO  : Processor reset is completed for microblaze_0
+15:14:29 INFO  : Processor reset is completed for microblaze_0
+15:14:53 INFO  : Processor reset is completed for microblaze_0
+15:15:18 INFO  : Processor reset is completed for microblaze_0
+15:16:25 INFO  : Processor reset is completed for microblaze_0
+15:17:44 INFO  : Processor reset is completed for microblaze_0
+15:18:24 INFO  : Processor reset is completed for microblaze_0
+15:19:00 INFO  : Processor reset is completed for microblaze_0
+15:19:27 INFO  : Processor reset is completed for microblaze_0
+10:45:58 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+10:46:18 INFO  : Processor reset is completed for microblaze_0
+10:46:27 INFO  : Processor reset is completed for microblaze_0
+10:48:08 INFO  : Processor reset is completed for microblaze_0
+10:48:52 INFO  : Processor reset is completed for microblaze_0
+10:49:05 INFO  : Processor reset is completed for microblaze_0
+10:54:26 INFO  : Processor reset is completed for microblaze_0
+10:56:51 INFO  : Processor reset is completed for microblaze_0
+11:07:52 INFO  : Processor reset is completed for microblaze_0
+11:20:24 INFO  : Processor reset is completed for microblaze_0
+11:20:51 INFO  : Processor reset is completed for microblaze_0
+11:52:43 INFO  : Project hw_platform_0's source hardware specification located at /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:52:45 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+11:52:57 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+11:52:57 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+11:53:02 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:53:04 INFO  : 
+11:53:05 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+11:53:05 INFO  : Clearing existing target manager status.
+11:53:37 INFO  : Processor reset is completed for microblaze_0
+11:53:49 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+11:53:56 INFO  : Processor reset is completed for microblaze_0
+11:54:05 INFO  : Processor reset is completed for microblaze_0
+11:54:42 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+11:54:52 INFO  : Processor reset is completed for microblaze_0
+11:55:31 INFO  : Processor reset is completed for microblaze_0
+11:56:00 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+13:36:32 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+13:37:37 INFO  : Processor reset is completed for microblaze_0
+14:06:21 INFO  : Processor reset is completed for microblaze_0
+14:06:40 INFO  : Processor reset is completed for microblaze_0
+14:07:40 INFO  : Processor reset is completed for microblaze_0
+14:08:20 INFO  : Processor reset is completed for microblaze_0
+14:09:59 INFO  : Processor reset is completed for microblaze_0
+14:11:57 INFO  : Processor reset is completed for microblaze_0
+14:12:39 INFO  : Processor reset is completed for microblaze_0
+14:45:45 INFO  : Project hw_platform_0's source hardware specification located at /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+14:46:04 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+14:46:15 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+14:46:22 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+14:46:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:46:35 INFO  : 
+14:46:36 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+14:46:37 INFO  : Clearing existing target manager status.
+14:47:09 INFO  : Processor reset is completed for microblaze_0
+14:47:20 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+14:47:35 INFO  : Processor reset is completed for microblaze_0
+14:47:48 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:48:23 INFO  : Processing command line option -hwspec /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+14:48:28 INFO  : The hardware specification for project 'hw_platform_0' is different from /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+14:48:28 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+14:48:28 INFO  : Restoring local repository preferences: 
+		 /usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0/drivers/backlitLCD_v1_0
+14:48:36 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+14:48:36 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+14:48:37 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:48:43 INFO  : 
+14:48:44 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+14:48:44 INFO  : Clearing existing target manager status.
+14:49:09 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+14:49:34 INFO  : Processor reset is completed for microblaze_0
+14:50:03 INFO  : Processor reset is completed for microblaze_0
+14:50:35 INFO  : Processor reset is completed for microblaze_0
+14:52:44 INFO  : Processor reset is completed for microblaze_0
+14:53:59 INFO  : Processor reset is completed for microblaze_0
+14:54:13 INFO  : Processor reset is completed for microblaze_0
+14:54:18 INFO  : Processor reset is completed for microblaze_0
+14:54:35 INFO  : Processor reset is completed for microblaze_0
+14:54:39 INFO  : Processor reset is completed for microblaze_0
+14:55:10 INFO  : Processor reset is completed for microblaze_0
+14:56:12 INFO  : Processor reset is completed for microblaze_0
+14:56:39 INFO  : Processor reset is completed for microblaze_0
+14:56:57 INFO  : Processor reset is completed for microblaze_0
+14:57:05 INFO  : Processor reset is completed for microblaze_0
+14:57:10 INFO  : Processor reset is completed for microblaze_0
+14:57:30 INFO  : Processor reset is completed for microblaze_0
+14:59:27 INFO  : Processor reset is completed for microblaze_0
+15:01:13 INFO  : Processor reset is completed for microblaze_0
+15:15:20 INFO  : Project hw_platform_0's source hardware specification located at /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:15:25 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+15:15:36 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+15:15:40 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+15:15:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:15:47 INFO  : 
+15:15:48 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+15:15:48 INFO  : Clearing existing target manager status.
+15:16:10 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+15:16:26 INFO  : Processor reset is completed for microblaze_0
+15:16:48 INFO  : Processor reset is completed for microblaze_0
+15:16:57 INFO  : Processor reset is completed for microblaze_0
+15:17:12 INFO  : Processor reset is completed for microblaze_0
+15:17:20 INFO  : Processor reset is completed for microblaze_0
+15:17:31 INFO  : Processor reset is completed for microblaze_0
+15:17:39 INFO  : Processor reset is completed for microblaze_0
+15:18:23 INFO  : Processor reset is completed for microblaze_0
+15:37:25 INFO  : Project hw_platform_0's source hardware specification located at /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:37:45 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+15:37:53 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+15:37:59 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+15:38:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:38:10 INFO  : 
+15:38:11 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+15:38:11 INFO  : Clearing existing target manager status.
+15:38:30 INFO  : Processor reset is completed for microblaze_0
+15:39:02 INFO  : Processor reset is completed for microblaze_0
+15:39:44 INFO  : Processor reset is completed for microblaze_0
+16:04:03 INFO  : Processor reset is completed for microblaze_0
+16:04:20 INFO  : Processor reset is completed for microblaze_0
+16:05:10 INFO  : Processor reset is completed for microblaze_0
+16:05:40 INFO  : Processor reset is completed for microblaze_0
+16:06:09 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:06:11 INFO  : Processor reset is completed for microblaze_0
+16:07:22 INFO  : Processor reset is completed for microblaze_0
+16:07:59 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:585)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:622)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:674)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:563)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:253)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+16:08:09 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:08:48 INFO  : Processing command line option -hwspec /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+16:08:52 INFO  : The hardware specification for project 'hw_platform_0' is different from /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+16:08:52 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+16:08:53 INFO  : Restoring local repository preferences: 
+		 /usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0/drivers/backlitLCD_v1_0
+16:08:54 INFO  : Updating .bit and .bmm files from XPS's export folder.
+16:09:00 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+16:09:05 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+16:09:05 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+16:09:10 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+16:09:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:09:18 INFO  : 
+16:09:19 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+16:09:19 INFO  : Clearing existing target manager status.
+16:09:35 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:585)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:622)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:674)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:563)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:253)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+16:10:12 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:10:36 INFO  : Processing command line option -hwspec /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+16:10:42 INFO  : Restoring local repository preferences: 
+		 /usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0/drivers/backlitLCD_v1_0
+16:10:42 INFO  : The hardware specification for project 'hw_platform_0' is different from /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+16:10:42 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+16:10:50 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+16:10:50 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+16:10:51 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:10:57 INFO  : 
+16:10:58 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+16:10:58 INFO  : Clearing existing target manager status.
+16:11:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:13:33 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:244)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+16:13:39 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:14:07 INFO  : Processing command line option -hwspec /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+16:14:12 INFO  : Restoring local repository preferences: 
+		 /usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0/drivers/backlitLCD_v1_0
+16:14:13 INFO  : The hardware specification for project 'hw_platform_0' is different from /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml.
+16:14:13 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+16:14:20 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+16:14:20 INFO  : Copied contents of /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+16:14:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:14:27 INFO  : 
+16:14:28 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+16:14:28 INFO  : Clearing existing target manager status.
+16:14:30 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:15:47 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:244)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+16:16:33 INFO  : Processor reset is completed for microblaze_0
+16:17:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:18:36 INFO  : Processor reset is completed for microblaze_0
+16:19:06 INFO  : Processor reset is completed for microblaze_0
+16:19:34 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:19:35 INFO  : Processor reset is completed for microblaze_0
+16:20:42 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:585)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:622)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:674)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:563)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:253)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+16:20:50 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:585)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:622)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:674)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:563)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:253)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+16:20:55 INFO  : Processor reset is completed for microblaze_0
+16:21:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:21:31 INFO  : Processor reset is completed for microblaze_0
+16:22:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:22:19 INFO  : Processor reset is completed for microblaze_0
+16:23:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:23:43 INFO  : Processor reset is completed for microblaze_0
+16:24:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:24:34 INFO  : Processor reset is completed for microblaze_0
+16:24:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:24:52 INFO  : Processor reset is completed for microblaze_0
+16:25:11 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:25:14 INFO  : Processor reset is completed for microblaze_0
+16:27:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:27:17 INFO  : Processor reset is completed for microblaze_0
+16:37:50 INFO  : Processor reset is completed for microblaze_0
+16:39:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:39:19 INFO  : Processor reset is completed for microblaze_0
+16:39:39 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+16:40:28 INFO  : Processor reset is completed for microblaze_0
+16:40:48 INFO  : Processor reset is completed for microblaze_0
+16:42:57 INFO  : Processor reset is completed for microblaze_0
+16:43:13 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+16:43:24 INFO  : Processor reset is completed for microblaze_0
+16:48:43 INFO  : Processor reset is completed for microblaze_0
+16:49:58 INFO  : FPGA configured successfully with bitstream "/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+16:50:31 INFO  : Processor reset is completed for microblaze_0
+16:51:19 INFO  : Processor reset is completed for microblaze_0
+16:51:30 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:585)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:622)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:674)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:478)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+16:51:36 INFO  : Processor reset is completed for microblaze_0
+16:52:09 INFO  : Processor reset is completed for microblaze_0
+16:52:51 INFO  : Processor reset is completed for microblaze_0
+16:54:48 INFO  : Processor reset is completed for microblaze_0
+16:55:16 INFO  : Processor reset is completed for microblaze_0
+16:55:23 INFO  : Processor reset is completed for microblaze_0
+16:55:32 INFO  : Processor reset is completed for microblaze_0
+16:55:38 INFO  : Processor reset is completed for microblaze_0
+16:55:45 INFO  : Processor reset is completed for microblaze_0
+16:55:51 INFO  : Processor reset is completed for microblaze_0
+16:55:56 INFO  : Processor reset is completed for microblaze_0
+16:56:03 INFO  : Processor reset is completed for microblaze_0
+16:59:25 INFO  : Processor reset is completed for microblaze_0
+16:59:42 INFO  : Processor reset is completed for microblaze_0
+16:59:50 INFO  : Processor reset is completed for microblaze_0
+17:01:10 INFO  : Processor reset is completed for microblaze_0
+10:33:19 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+10:33:20 WARN  : Terminating existing sessions on processor microblaze_0
+10:34:20 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:34:20 ERROR : Timeout occured while waiting to get reply for command "close_terminal"
+10:34:20 ERROR : Error while closing JTAG UART server: 
+10:34:30 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:34:30 ERROR : Timeout occured while waiting to get reply for command "targets 0"
+10:35:30 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:35:30 ERROR : Timeout occured while waiting to get reply for command "xgdbclose 0"
+10:36:30 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:36:30 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+10:36:30 ERROR : Disconnect target failed.
+10:42:19 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,15 @@
+
+
+/***************************** Include Files *******************************/
+#include "backlitLCD.h"
+
+/************************** Function Definitions ***************************/
+
+void writeChar(){
+
+}
+
+void delay(numCycles){
+	volatile int Delay;
+	for (Delay = 0; Delay < numCycles; Delay++);
+}
