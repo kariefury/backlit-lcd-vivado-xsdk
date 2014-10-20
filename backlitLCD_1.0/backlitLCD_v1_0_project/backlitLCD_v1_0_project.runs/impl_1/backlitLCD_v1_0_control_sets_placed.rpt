@@ -1,0 +1,76 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
+| Date         : Mon Oct 13 14:31:04 2014
+| Host         : umnak.ece.ucsb.edu running 64-bit CentOS release 6.5 (Final)
+| Command      : report_control_sets -verbose -file backlitLCD_v1_0_control_sets_placed.rpt
+| Design       : backlitLCD_v1_0
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    23 |
+| Minimum Number of register sites lost to control set restrictions |    18 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              12 |            4 |
+| Yes          | No                    | No                     |              22 |            7 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             164 |           31 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+-----------------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|      Clock Signal     |                       Enable Signal                       |                   Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++-----------------------+-----------------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/myLCD/n_0_current_state[3]_i_2 | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              4 |
+|  s_axi_aclk_IBUF_BUFG |                                                           | backlitLCD_v1_0_S_AXI_inst/myLCD/n_0_counter[4]_i_1 |                2 |              5 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/myLCD/E[0]                     |                                                     |                2 |              5 |
+|  s_axi_aclk_IBUF_BUFG |                                                           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                2 |              7 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg1[7]_i_1            | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                2 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg3[7]_i_1            | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg3[31]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                2 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg3[23]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                3 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg3[15]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg2[7]_i_1            | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg2[31]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                2 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg2[23]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg2[15]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg1[31]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg1[23]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg1[15]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg0[7]_i_1            | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg0[31]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg0[23]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                2 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/n_0_slv_reg0[15]_i_1           | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                1 |              8 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/myLCD/level0                   |                                                     |                5 |             17 |
+|  s_axi_aclk_IBUF_BUFG |                                                           |                                                     |                7 |             20 |
+|  s_axi_aclk_IBUF_BUFG | backlitLCD_v1_0_S_AXI_inst/slv_reg_rden                   | backlitLCD_v1_0_S_AXI_inst/myLCD/SR[0]              |                8 |             32 |
++-----------------------+-----------------------------------------------------------+-----------------------------------------------------+------------------+----------------+
+
+

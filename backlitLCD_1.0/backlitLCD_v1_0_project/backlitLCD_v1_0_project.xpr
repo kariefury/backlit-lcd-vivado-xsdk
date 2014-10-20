@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
 
-<Project Version="7" Minor="0" Path="/usr9/research/chsegal/git/backlit-lcd-vivado-xsdk/backlitNibble.xpr">
+<Project Version="7" Minor="0" Path="/usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0/backlitLCD_v1_0_project/backlitLCD_v1_0_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="f126e47eb924422b88e3f0fc0b6fac27"/>
+    <Option Name="Id" Val="4dd719e09ae748aeac20a1d942db80e1"/>
     <Option Name="Part" Val="xc7a100tcsg324-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="BoardPart" Val=""/>
@@ -16,46 +16,32 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/bd/system/system.bd">
+      <File Path="$PPRDIR/../hdl/backlitLCD_v1_0_S_AXI.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/bd/system/hdl/system_wrapper.v">
+      <File Path="$PPRDIR/../hdl/backlitLCD_v1_0.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/bd/system/ip/system_backlitLCD_0_2/system_backlitLCD_0_2.upgrade_log"/>
+      <File Path="$PPRDIR/../component.xml">
+        <FileInfo SFType="IPXACT"/>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="system_wrapper"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
-        <Option Name="IPRepoPath" Val="$PPRDIR/backlitLCD_1.0"/>
+        <Option Name="TopModule" Val="backlitLCD_v1_0"/>
+        <Option Name="TopRTLFile" Val="$PPRDIR/../hdl/backlitLCD_v1_0.v"/>
+        <Option Name="IPRepoPath" Val="$PPRDIR/../../backlitLCD_1.0"/>
+        <Option Name="IPRepoPath" Val="$PPRDIR/../../../../seven/ip_repo/sevenSeg_1.0"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PSRCDIR/constrs_1/imports/Artix7/Nexys4_Master.xdc">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/ECE153A/Artix7/lab3/backlitLCD/backlitLCD.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc"/>
-          <Attr Name="ImportTime" Val="1412031287"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PIOPLANDIR/constrs_1/designprops.xml">
-        <FileInfo SFType="CompatPartsDb"/>
-      </File>
-      <File Path="$PIOPLANDIR/constrs_1/usercols.xml">
-        <FileInfo SFType="UserColsDb"/>
-      </File>
       <Config>
-        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/Artix7/Nexys4_Master.xdc"/>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
     </FileSet>
@@ -63,7 +49,7 @@
       <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="system_wrapper"/>
+        <Option Name="TopModule" Val="backlitLCD_v1_0"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="SrcSet" Val="sources_1"/>
@@ -94,5 +80,4 @@
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
   </Runs>
-  <HWSession Dir="hw_1" File="hw.xml"/>
 </Project>
