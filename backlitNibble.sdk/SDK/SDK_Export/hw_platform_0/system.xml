@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Oct 14 16:13:53 2014" VIVADOVERSION="2014.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Oct 20 23:28:24 2014" VIVADOVERSION="2014.1">
 
   <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="system_imp" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -4320,7 +4320,7 @@
   </MODULES>
 
   <REPOSITORIES>
-    <REPOSITORY ABSPATH="/usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0" RELPATH="../../../../../../managedIP/ip_repo/backlitLCD_1.0"/>
+    <REPOSITORY ABSPATH="/home/carrie/git/backlit-lcd-vivado-xsdk/backlitLCD_1.0" RELPATH="../../../../backlitLCD_1.0"/>
   </REPOSITORIES>
 
   <ADDRESSSPACETAGS>

@@ -1,6 +1,6 @@
-17:01:07 **** Incremental Build of configuration Release for project backlitLCD_Demo ****
+23:33:01 **** Incremental Build of configuration Release for project backlitLCD_Demo ****
 make all 
 make: Nothing to be done for `all'.
 
-17:01:08 Build Finished (took 595ms)
+23:33:01 Build Finished (took 65ms)
 

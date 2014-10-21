@@ -1,4 +1,4 @@
-16:50:00 **** Auto Build of project backlitLCD_Demo_bsp ****
+23:32:24 **** Auto Build of project backlitLCD_Demo_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_0/src
 make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
@@ -8,9 +8,9 @@ Running Make include in microblaze_0/libsrc/intc_v3_0/src
 make -C microblaze_0/libsrc/intc_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 Running Make include in microblaze_0/libsrc/standalone_v4_0/src
 make -C microblaze_0/libsrc/standalone_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
-make[2]: Entering directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+make[2]: Entering directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
 cp -rf profile.h mblaze_nt_types.h _profile_timer_hw.h ../../../../include
-make[2]: Leaving directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
+make[2]: Leaving directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/standalone_v4_0/src/profile'
 Running Make include in microblaze_0/libsrc/tmrctr_v3_0/src
 make -C microblaze_0/libsrc/tmrctr_v3_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 Running Make include in microblaze_0/libsrc/uartlite_v3_0/src
@@ -18,37 +18,37 @@ make -C microblaze_0/libsrc/uartlite_v3_0/src -s include -e "SHELL=/bin/sh" "COM
 Running Make libs in microblaze_0/libsrc/bram_v4_0/src
 make -C microblaze_0/libsrc/bram_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 Compiling bram
-make[2]: Entering directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/bram_v4_0/src'
+make[2]: Entering directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/bram_v4_0/src'
 rm -rf *.o 
-make[2]: Leaving directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/bram_v4_0/src'
+make[2]: Leaving directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/bram_v4_0/src'
 Running Make libs in microblaze_0/libsrc/cpu_v2_0/src
 make -C microblaze_0/libsrc/cpu_v2_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 Compiling cpu
-make[2]: Entering directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+make[2]: Entering directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/cpu_v2_0/src'
 rm -rf *.o
-make[2]: Leaving directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/cpu_v2_0/src'
+make[2]: Leaving directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/cpu_v2_0/src'
 Running Make libs in microblaze_0/libsrc/intc_v3_0/src
 make -C microblaze_0/libsrc/intc_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 Compiling intc
-make[2]: Entering directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/intc_v3_0/src'
+make[2]: Entering directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/intc_v3_0/src'
 rm -rf *.o 
-make[2]: Leaving directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/intc_v3_0/src'
+make[2]: Leaving directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/intc_v3_0/src'
 Running Make libs in microblaze_0/libsrc/standalone_v4_0/src
 make -C microblaze_0/libsrc/standalone_v4_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 Compiling standalone
 Running Make libs in microblaze_0/libsrc/tmrctr_v3_0/src
 make -C microblaze_0/libsrc/tmrctr_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 Compiling tmrctr
-make[2]: Entering directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/tmrctr_v3_0/src'
+make[2]: Entering directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/tmrctr_v3_0/src'
 rm -rf *.o 
-make[2]: Leaving directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/tmrctr_v3_0/src'
+make[2]: Leaving directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/tmrctr_v3_0/src'
 Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src
 make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 Compiling uartlite
-make[2]: Entering directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+make[2]: Entering directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
 rm -rf *.o 
-make[2]: Leaving directory `/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
+make[2]: Leaving directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
 Finished building libraries
 
-16:50:09 Build Finished (took 9s.280ms)
+23:32:26 Build Finished (took 1s.416ms)
 

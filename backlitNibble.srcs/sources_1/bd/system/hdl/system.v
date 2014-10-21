@@ -1,8 +1,8 @@
 //Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-//Date        : Tue Oct 14 16:46:39 2014
-//Host        : umnak.ece.ucsb.edu running 64-bit CentOS release 6.5 (Final)
+//Date        : Mon Oct 20 23:37:31 2014
+//Host        : fury running 64-bit Ubuntu 14.04.1 LTS
 //Command     : generate_target system.bd
 //Design      : system
 //Purpose     : IP block netlist
@@ -1000,25 +1000,25 @@ module system
   wire microblaze_0_axi_periph_M02_AXI_WREADY;
   wire [3:0]microblaze_0_axi_periph_M02_AXI_WSTRB;
   wire microblaze_0_axi_periph_M02_AXI_WVALID;
-  wire [3:0]microblaze_0_axi_periph_M03_AXI_ARADDR;
-  wire [2:0]microblaze_0_axi_periph_M03_AXI_ARPROT;
-  wire microblaze_0_axi_periph_M03_AXI_ARREADY;
-  wire microblaze_0_axi_periph_M03_AXI_ARVALID;
-  wire [3:0]microblaze_0_axi_periph_M03_AXI_AWADDR;
-  wire [2:0]microblaze_0_axi_periph_M03_AXI_AWPROT;
-  wire microblaze_0_axi_periph_M03_AXI_AWREADY;
-  wire microblaze_0_axi_periph_M03_AXI_AWVALID;
-  wire microblaze_0_axi_periph_M03_AXI_BREADY;
-  wire [1:0]microblaze_0_axi_periph_M03_AXI_BRESP;
-  wire microblaze_0_axi_periph_M03_AXI_BVALID;
-  wire [31:0]microblaze_0_axi_periph_M03_AXI_RDATA;
-  wire microblaze_0_axi_periph_M03_AXI_RREADY;
-  wire [1:0]microblaze_0_axi_periph_M03_AXI_RRESP;
-  wire microblaze_0_axi_periph_M03_AXI_RVALID;
-  wire [31:0]microblaze_0_axi_periph_M03_AXI_WDATA;
-  wire microblaze_0_axi_periph_M03_AXI_WREADY;
-  wire [3:0]microblaze_0_axi_periph_M03_AXI_WSTRB;
-  wire microblaze_0_axi_periph_M03_AXI_WVALID;
+(* MARK_DEBUG *)   wire [3:0]microblaze_0_axi_periph_M03_AXI_ARADDR;
+(* MARK_DEBUG *)   wire [2:0]microblaze_0_axi_periph_M03_AXI_ARPROT;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_ARREADY;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_ARVALID;
+(* MARK_DEBUG *)   wire [3:0]microblaze_0_axi_periph_M03_AXI_AWADDR;
+(* MARK_DEBUG *)   wire [2:0]microblaze_0_axi_periph_M03_AXI_AWPROT;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_AWREADY;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_AWVALID;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_BREADY;
+(* MARK_DEBUG *)   wire [1:0]microblaze_0_axi_periph_M03_AXI_BRESP;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_BVALID;
+(* MARK_DEBUG *)   wire [31:0]microblaze_0_axi_periph_M03_AXI_RDATA;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_RREADY;
+(* MARK_DEBUG *)   wire [1:0]microblaze_0_axi_periph_M03_AXI_RRESP;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_RVALID;
+(* MARK_DEBUG *)   wire [31:0]microblaze_0_axi_periph_M03_AXI_WDATA;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_WREADY;
+(* MARK_DEBUG *)   wire [3:0]microblaze_0_axi_periph_M03_AXI_WSTRB;
+(* MARK_DEBUG *)   wire microblaze_0_axi_periph_M03_AXI_WVALID;
   wire microblaze_0_debug_CAPTURE;
   wire microblaze_0_debug_CLK;
   wire [0:7]microblaze_0_debug_REG_EN;

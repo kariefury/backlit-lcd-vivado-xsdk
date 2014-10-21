@@ -48,7 +48,7 @@
 
 
 // IP VLNV: HLS_Pulsar:user:backlitLCD:1.0
-// IP Revision: 9
+// IP Revision: 15
 
 (* X_CORE_INFO = "backlitLCD_v1_0,Vivado 2014.1" *)
 (* CHECK_LICENSE_TYPE = "system_backlitLCD_0_2,backlitLCD_v1_0,{}" *)
