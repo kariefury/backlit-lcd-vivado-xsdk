@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="synth_1" LaunchDir="/usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0/backlitLCD_v1_0_project/backlitLCD_v1_0_project.runs/synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-</Runs>
-

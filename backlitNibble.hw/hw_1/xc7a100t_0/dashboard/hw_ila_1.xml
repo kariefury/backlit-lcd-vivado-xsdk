@@ -3,15 +3,15 @@
     <DashboardHolder activeDashboard="ILA">
         <Dashboard columnResizable="1" key="ILA" rowResizable="0" title="ILA">
             <Settings/>
-            <GadgetContainer boxAxis="1" count="2" height="639"
-                layout="JideBoxLayout" vgap="6" width="715">
-                <Gadget height="108" key="Trigger Capture Status" width="715">
+            <GadgetContainer boxAxis="1" count="2" height="332"
+                layout="JideBoxLayout" vgap="6" width="445">
+                <Gadget height="71" key="Trigger Capture Status" width="445">
                     <Ila capture_condition="AND" capture_mode="ALWAYS"
                         data_depth="1024" trigger_condition="AND"
                         trigger_mode="BASIC_ONLY" trigger_position="0"
-                        trigout_mode="DISABLED" tsm_file="" window_count="1"/>
+                        trigout_mode="DISABLED" tsm_file="" window_count="8"/>
                 </Gadget>
-                <Gadget height="446" key="Basic Trigger Setup" width="715">
+                <Gadget height="248" key="Basic Trigger Setup" width="445">
                     <Probe name="system_i/backlitLCD_0_en"/>
                 </Gadget>
                 <Settings/>

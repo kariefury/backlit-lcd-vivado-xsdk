@@ -3,53 +3,53 @@
 # 
 
   set_param gui.test TreeTableDev
-  set_param xicom.use_bs_reader 1
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
+set_msg_config -id {HDL-1065} -limit 10000
 set_msg_config -id {Labtools 27-147} -limit 4294967295
 create_project -in_memory -part xc7a100tcsg324-1
 set_property target_language Verilog [current_project]
 set_param project.compositeFile.enableAutoGeneration 0
 set_property default_lib xil_defaultlib [current_project]
-set_property ip_repo_paths /usr9/research/chsegal/Documents/ECE153A/Artix7/managedIP/ip_repo/backlitLCD_1.0 [current_fileset]
+set_property ip_repo_paths /home/carrie/git/backlit-lcd-vivado-xsdk/backlitLCD_1.0 [current_fileset]
 
-add_files /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/system.bd
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_bram_if_cntlr_0/system_dlmb_bram_if_cntlr_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_bram_if_cntlr_0/system_ilmb_bram_if_cntlr_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_lmb_bram_0/system_lmb_bram_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_board.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0_board.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/system_ooc.xdc]
+add_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/system.bd
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_bram_if_cntlr_0/system_dlmb_bram_if_cntlr_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_bram_if_cntlr_0/system_ilmb_bram_if_cntlr_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_lmb_bram_0/system_lmb_bram_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/system_ooc.xdc]
 set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property is_locked true [get_files /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/system.bd]
+set_property is_locked true [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/system.bd]
 
-read_verilog -library xil_defaultlib /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/sources_1/bd/system/hdl/system_wrapper.v
-read_xdc /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc
-set_property used_in_implementation false [get_files /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc]
+read_verilog -library xil_defaultlib /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/hdl/system_wrapper.v
+read_xdc /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc
+set_property used_in_implementation false [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.cache/wt [current_project]
-set_property parent.project_dir /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble [current_project]
+set_property webtalk.parent_dir /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.cache/wt [current_project]
+set_property parent.project_dir /home/carrie/git/backlit-lcd-vivado-xsdk [current_project]
 synth_design -top system_wrapper -part xc7a100tcsg324-1
 write_checkpoint system_wrapper.dcp
 report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb

@@ -48,7 +48,7 @@
 
 
 // IP VLNV: HLS_Pulsar:user:backlitLCD:1.0
-// IP Revision: 15
+// IP Revision: 17
 
 (* X_CORE_INFO = "backlitLCD_v1_0,Vivado 2014.1" *)
 (* CHECK_LICENSE_TYPE = "system_backlitLCD_0_2,backlitLCD_v1_0,{}" *)
@@ -59,6 +59,9 @@ module system_backlitLCD_0_2 (
   en,
   db,
   v0,
+  inp,
+  s_axi_aclk,
+  s_axi_aresetn,
   s_axi_awaddr,
   s_axi_awprot,
   s_axi_awvalid,
@@ -77,9 +80,7 @@ module system_backlitLCD_0_2 (
   s_axi_rdata,
   s_axi_rresp,
   s_axi_rvalid,
-  s_axi_rready,
-  s_axi_aclk,
-  s_axi_aresetn
+  s_axi_rready
 );
 
 output wire rs;
@@ -87,6 +88,11 @@ output wire rw;
 output wire en;
 output wire [3 : 0] db;
 output wire v0;
+output wire inp;
+(* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 S_AXI_CLK CLK" *)
+input wire s_axi_aclk;
+(* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 S_AXI_RST RST" *)
+input wire s_axi_aresetn;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI AWADDR" *)
 input wire [3 : 0] s_axi_awaddr;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI AWPROT" *)
@@ -125,10 +131,6 @@ output wire [1 : 0] s_axi_rresp;
 output wire s_axi_rvalid;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI RREADY" *)
 input wire s_axi_rready;
-(* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 S_AXI_CLK CLK" *)
-input wire s_axi_aclk;
-(* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 S_AXI_RST RST" *)
-input wire s_axi_aresetn;
 
   backlitLCD_v1_0 #(
     .C_S_AXI_DATA_WIDTH(32),  // Width of S_AXI data bus
@@ -139,6 +141,9 @@ input wire s_axi_aresetn;
     .en(en),
     .db(db),
     .v0(v0),
+    .inp(inp),
+    .s_axi_aclk(s_axi_aclk),
+    .s_axi_aresetn(s_axi_aresetn),
     .s_axi_awaddr(s_axi_awaddr),
     .s_axi_awprot(s_axi_awprot),
     .s_axi_awvalid(s_axi_awvalid),
@@ -157,8 +162,6 @@ input wire s_axi_aresetn;
     .s_axi_rdata(s_axi_rdata),
     .s_axi_rresp(s_axi_rresp),
     .s_axi_rvalid(s_axi_rvalid),
-    .s_axi_rready(s_axi_rready),
-    .s_axi_aclk(s_axi_aclk),
-    .s_axi_aresetn(s_axi_aresetn)
+    .s_axi_rready(s_axi_rready)
   );
 endmodule

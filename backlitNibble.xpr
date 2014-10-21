@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
 
-<Project Version="7" Minor="0" Path="/usr9/research/chsegal/git/backlit-lcd-vivado-xsdk/backlitNibble.xpr">
+<Project Version="7" Minor="0" Path="/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="f126e47eb924422b88e3f0fc0b6fac27"/>

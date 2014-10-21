@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1413331033">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1413874677">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="RDI-RDI" Name="system_wrapper.vdi"/>
   <File Type="BG-DRC" Name="system_wrapper.drc"/>
@@ -48,7 +48,7 @@
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/imports/Artix7/Nexys4_Master.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../backlitLCD/backlitLCD.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/ECE153A/Artix7/lab3/backlitLCD/backlitLCD.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc"/>
         <Attr Name="ImportTime" Val="1412031287"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

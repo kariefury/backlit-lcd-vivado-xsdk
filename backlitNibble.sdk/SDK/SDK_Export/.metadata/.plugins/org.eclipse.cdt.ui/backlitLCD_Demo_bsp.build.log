@@ -1,4 +1,4 @@
-23:32:24 **** Auto Build of project backlitLCD_Demo_bsp ****
+00:08:15 **** Auto Build of project backlitLCD_Demo_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_0/src
 make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
@@ -50,5 +50,5 @@ rm -rf *.o
 make[2]: Leaving directory `/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/backlitLCD_Demo_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
 Finished building libraries
 
-23:32:26 Build Finished (took 1s.416ms)
+00:08:17 Build Finished (took 1s.575ms)
 

@@ -1,7 +1,7 @@
 //Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-//Date        : Mon Oct 20 23:37:31 2014
+//Date        : Mon Oct 20 23:53:50 2014
 //Host        : fury running 64-bit Ubuntu 14.04.1 LTS
 //Command     : generate_target system.bd
 //Design      : system
@@ -940,6 +940,7 @@ module system
     clock_rtl,
     db,
     en,
+    inp,
     rs,
     rw,
     v0);
@@ -947,6 +948,7 @@ module system
   input clock_rtl;
   output [3:0]db;
   output en;
+  output inp;
   output rs;
   output rw;
   output v0;
@@ -956,6 +958,7 @@ module system
   wire axi_timer_0_interrupt;
 (* MARK_DEBUG *)   wire [3:0]backlitLCD_0_db;
 (* MARK_DEBUG *)   wire backlitLCD_0_en;
+(* MARK_DEBUG *)   wire backlitLCD_0_inp;
 (* MARK_DEBUG *)   wire backlitLCD_0_rs;
 (* MARK_DEBUG *)   wire backlitLCD_0_rw;
 (* MARK_DEBUG *)   wire backlitLCD_0_v0;
@@ -1093,6 +1096,7 @@ module system
   assign clock_rtl_1 = clock_rtl;
   assign db[3:0] = backlitLCD_0_db;
   assign en = backlitLCD_0_en;
+  assign inp = backlitLCD_0_inp;
   assign reset_rtl_1 = btnCpuReset;
   assign rs = backlitLCD_0_rs;
   assign rw = backlitLCD_0_rw;
@@ -1128,6 +1132,7 @@ system_axi_timer_0_0 axi_timer_0
 system_backlitLCD_0_2 backlitLCD_0
        (.db(backlitLCD_0_db),
         .en(backlitLCD_0_en),
+        .inp(backlitLCD_0_inp),
         .rs(backlitLCD_0_rs),
         .rw(backlitLCD_0_rw),
         .s_axi_aclk(microblaze_0_Clk),

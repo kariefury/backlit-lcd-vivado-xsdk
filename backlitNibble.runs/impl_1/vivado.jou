@@ -2,9 +2,9 @@
 # Vivado v2014.1 (64-bit)
 # SW Build 881834 on Fri Apr  4 14:00:25 MDT 2014
 # IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
-# Start of session at: Tue Oct 14 16:57:21 2014
-# Process ID: 11974
-# Log file: /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.runs/impl_1/system_wrapper.vdi
-# Journal file: /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.runs/impl_1/vivado.jou
+# Start of session at: Mon Oct 20 23:57:59 2014
+# Process ID: 24894
+# Log file: /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.runs/impl_1/system_wrapper.vdi
+# Journal file: /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
 source system_wrapper.tcl -notrace

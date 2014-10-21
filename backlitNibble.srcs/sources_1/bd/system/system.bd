@@ -121,6 +121,12 @@
             <spirit:direction>out</spirit:direction>
           </spirit:wire>
         </spirit:port>
+        <spirit:port>
+          <spirit:name>inp</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
       </spirit:ports>
     </spirit:model>
   </spirit:component>
@@ -379,6 +385,14 @@
         <spirit:name>backlitLCD_0_v0</spirit:name>
         <spirit:internalPortReference spirit:componentRef="backlitLCD_0" spirit:portRef="v0"/>
         <spirit:externalPortReference spirit:portRef="v0"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>backlitLCD_0_inp</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="backlitLCD_0" spirit:portRef="inp"/>
+        <spirit:externalPortReference spirit:portRef="inp"/>
         <bd:hdl_attributes>
           <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
         </bd:hdl_attributes>

@@ -3,10 +3,54 @@
   <probeset name="EDA_PROBESET" active="true">
     <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
       <probeOptions Id="DebugProbeParams">
-        <Option Id="COMPARE_VALUE.0" value="eq4&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
         <Option Id="CORE_LOCATION" value="1:0"/>
         <Option Id="HW_ILA" value="u_ila_0_0"/>
         <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="32"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[31]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[30]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[29]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[28]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[27]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[26]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[25]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[24]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[23]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[22]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[21]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[20]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[19]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[18]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[17]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[16]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[15]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[14]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[13]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[12]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[11]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[10]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[9]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[8]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[7]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[6]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[5]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[4]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[3]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[2]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[1]"/>
+        <net name="system_i/microblaze_0_axi_periph_M03_AXI_WDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="COMPARE_VALUE.0" value="eq4&apos;hX"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="u_ila_0_0"/>
+        <Option Id="PROBE_PORT" value="1"/>
         <Option Id="PROBE_PORT_BITS" value="0"/>
         <Option Id="PROBE_PORT_BIT_COUNT" value="4"/>
       </probeOptions>
@@ -22,7 +66,7 @@
         <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
         <Option Id="CORE_LOCATION" value="1:0"/>
         <Option Id="HW_ILA" value="u_ila_0_0"/>
-        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT" value="2"/>
         <Option Id="PROBE_PORT_BITS" value="0"/>
         <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
       </probeOptions>
@@ -35,7 +79,20 @@
         <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
         <Option Id="CORE_LOCATION" value="1:0"/>
         <Option Id="HW_ILA" value="u_ila_0_0"/>
-        <Option Id="PROBE_PORT" value="2"/>
+        <Option Id="PROBE_PORT" value="3"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/backlitLCD_0_inp"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="u_ila_0_0"/>
+        <Option Id="PROBE_PORT" value="4"/>
         <Option Id="PROBE_PORT_BITS" value="0"/>
         <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
       </probeOptions>
@@ -48,7 +105,7 @@
         <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
         <Option Id="CORE_LOCATION" value="1:0"/>
         <Option Id="HW_ILA" value="u_ila_0_0"/>
-        <Option Id="PROBE_PORT" value="3"/>
+        <Option Id="PROBE_PORT" value="5"/>
         <Option Id="PROBE_PORT_BITS" value="0"/>
         <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
       </probeOptions>
@@ -61,7 +118,7 @@
         <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
         <Option Id="CORE_LOCATION" value="1:0"/>
         <Option Id="HW_ILA" value="u_ila_0_0"/>
-        <Option Id="PROBE_PORT" value="4"/>
+        <Option Id="PROBE_PORT" value="6"/>
         <Option Id="PROBE_PORT_BITS" value="0"/>
         <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
       </probeOptions>

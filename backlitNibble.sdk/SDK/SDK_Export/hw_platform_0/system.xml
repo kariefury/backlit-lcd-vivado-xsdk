@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Oct 20 23:28:24 2014" VIVADOVERSION="2014.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Oct 21 00:03:59 2014" VIVADOVERSION="2014.1">
 
   <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="system_imp" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -37,6 +37,11 @@
     <PORT DIR="O" NAME="v0" SIGIS="undef" SIGNAME="backlitLCD_0_v0">
       <CONNECTIONS>
         <CONNECTION INSTANCE="backlitLCD_0" PORT="v0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="inp" SIGIS="undef" SIGNAME="backlitLCD_0_inp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="backlitLCD_0" PORT="inp"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -239,6 +244,21 @@
             <CONNECTION INSTANCE="External_Ports" PORT="v0"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="O" NAME="inp" SIGIS="undef" SIGNAME="backlitLCD_0_inp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="s_axi_aresetn" SIGIS="rst" SIGNAME="rst_clk_wiz_1_100M_peripheral_aresetn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="rst_clk_wiz_1_100M" PORT="peripheral_aresetn"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="I" NAME="s_axi_awaddr" SIGIS="undef" SIGNAME="backlitLCD_0_s_axi_awaddr">
           <CONNECTIONS>
             <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_awaddr"/>
@@ -332,16 +352,6 @@
         <PORT DIR="I" NAME="s_axi_rready" SIGIS="undef" SIGNAME="backlitLCD_0_s_axi_rready">
           <CONNECTIONS>
             <CONNECTION INSTANCE="microblaze_0_axi_periph_xbar" PORT="m_axi_rready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="clk_wiz_1" PORT="clk_out1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="s_axi_aresetn" SIGIS="rst" SIGNAME="rst_clk_wiz_1_100M_peripheral_aresetn">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="rst_clk_wiz_1_100M" PORT="peripheral_aresetn"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

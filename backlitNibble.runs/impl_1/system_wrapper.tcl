@@ -44,16 +44,16 @@ proc step_failed { step } {
 
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
+set_msg_config -id {HDL-1065} -limit 10000
 set_msg_config -id {Labtools 27-147} -limit 4294967295
 
 start_step init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param gui.test TreeTableDev
-  set_param xicom.use_bs_reader 1
-  open_checkpoint /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.runs/impl_1/system_wrapper.dcp
-  set_property webtalk.parent_dir /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.cache/wt [current_project]
-  set_property parent.project_dir /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble [current_project]
+  open_checkpoint /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.runs/impl_1/system_wrapper.dcp
+  set_property webtalk.parent_dir /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.cache/wt [current_project]
+  set_property parent.project_dir /home/carrie/git/backlit-lcd-vivado-xsdk [current_project]
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {
@@ -67,7 +67,7 @@ start_step opt_design
 set rc [catch {
   create_msg_db opt_design.pb
   catch {write_debug_probes -quiet -force debug_nets}
-  catch {update_ip_catalog -quiet -current_ip_cache /usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.cache}
+  catch {update_ip_catalog -quiet -current_ip_cache /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.cache}
   opt_design 
   write_checkpoint -force system_wrapper_opt.dcp
   close_msg_db -file opt_design.pb
