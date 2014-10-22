@@ -1,41 +1,52 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <wave_config>
-	<wave_state>
-	</wave_state>
-	<db_ref_list>
-		<db_ref path="/usr9/research/chsegal/Documents/ECE153A/Artix7/lab3/backlitNibble/backlitNibble.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1" type="auto">
-			<top_modules>
-				<top_module name="top">
-				</top_module>
-			</top_modules>
-		</db_ref>
-	</db_ref_list>
-	<WVObjectSize size="5">
-	</WVObjectSize>
-	<wvobject fp_name="system_i/backlitLCD_0_db" type="array" db_ref_id="1">
-		<obj_property name="ElementShortName">system_i/backlitLCD_0_db[3:0]</obj_property>
-		<obj_property name="ObjectShortName">system_i/backlitLCD_0_db[3:0]</obj_property>
-		<obj_property name="Radix">HEXRADIX</obj_property>
-	</wvobject>
-	<wvobject fp_name="system_i/backlitLCD_0_en" type="logic" db_ref_id="1">
-		<obj_property name="ElementShortName">system_i/backlitLCD_0_en</obj_property>
-		<obj_property name="ObjectShortName">system_i/backlitLCD_0_en</obj_property>
-		<obj_property name="Radix">HEXRADIX</obj_property>
-	</wvobject>
-	<wvobject fp_name="system_i/backlitLCD_0_rs" type="logic" db_ref_id="1">
-		<obj_property name="ElementShortName">system_i/backlitLCD_0_rs</obj_property>
-		<obj_property name="ObjectShortName">system_i/backlitLCD_0_rs</obj_property>
-		<obj_property name="Radix">HEXRADIX</obj_property>
-	</wvobject>
-	<wvobject fp_name="system_i/backlitLCD_0_rw" type="logic" db_ref_id="1">
-		<obj_property name="ElementShortName">system_i/backlitLCD_0_rw</obj_property>
-		<obj_property name="ObjectShortName">system_i/backlitLCD_0_rw</obj_property>
-		<obj_property name="Radix">HEXRADIX</obj_property>
-	</wvobject>
-	<wvobject fp_name="system_i/backlitLCD_0_v0" type="logic" db_ref_id="1">
-		<obj_property name="ElementShortName">system_i/backlitLCD_0_v0</obj_property>
-		<obj_property name="ObjectShortName">system_i/backlitLCD_0_v0</obj_property>
-		<obj_property name="Radix">HEXRADIX</obj_property>
-	</wvobject>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" type="array" fp_name="system_i/backlitLCD_0_db">
+      <obj_property name="ElementShortName">system_i/backlitLCD_0_db[3:0]</obj_property>
+      <obj_property name="ObjectShortName">system_i/backlitLCD_0_db[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="system_i/backlitLCD_0_en">
+      <obj_property name="ElementShortName">system_i/backlitLCD_0_en</obj_property>
+      <obj_property name="ObjectShortName">system_i/backlitLCD_0_en</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="system_i/backlitLCD_0_rs">
+      <obj_property name="ElementShortName">system_i/backlitLCD_0_rs</obj_property>
+      <obj_property name="ObjectShortName">system_i/backlitLCD_0_rs</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="system_i/backlitLCD_0_rw">
+      <obj_property name="ElementShortName">system_i/backlitLCD_0_rw</obj_property>
+      <obj_property name="ObjectShortName">system_i/backlitLCD_0_rw</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="system_i/backlitLCD_0_v0">
+      <obj_property name="ElementShortName">system_i/backlitLCD_0_v0</obj_property>
+      <obj_property name="ObjectShortName">system_i/backlitLCD_0_v0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="system_i/backlitLCD_0_inp">
+      <obj_property name="ElementShortName">system_i/backlitLCD_0_inp</obj_property>
+      <obj_property name="ObjectShortName">system_i/backlitLCD_0_inp</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="system_i/backlitLCD_0_write">
+      <obj_property name="ElementShortName">system_i/backlitLCD_0_write</obj_property>
+      <obj_property name="ObjectShortName">system_i/backlitLCD_0_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="system_i/backlitLCD_0_writeState">
+      <obj_property name="ElementShortName">system_i/backlitLCD_0_writeState[3:0]</obj_property>
+      <obj_property name="ObjectShortName">system_i/backlitLCD_0_writeState[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
 </wave_config>
-

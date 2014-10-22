@@ -44,8 +44,7 @@ int main()
    Xil_ICacheEnable();
    Xil_DCacheEnable();
    print("---Entering main---\n\r");
-   lcd myLCD;
-   INIT_LCD (myLCD);
+   INIT_LCD ();
 
    print("---Exiting main---\n\r");
    Xil_DCacheDisable();

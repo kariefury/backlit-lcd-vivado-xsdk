@@ -265,7 +265,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>546a1522</spirit:value>
+            <spirit:value>72efa516</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -273,7 +273,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Oct 21 06:53:52 UTC 2014</spirit:value>
+            <spirit:value>Wed Oct 22 03:36:41 UTC 2014</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -292,7 +292,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>546a1522</spirit:value>
+            <spirit:value>72efa516</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -300,7 +300,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Oct 21 06:53:52 UTC 2014</spirit:value>
+            <spirit:value>Wed Oct 22 03:36:41 UTC 2014</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -378,6 +378,34 @@
         <spirit:name>inp</spirit:name>
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>write</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>writeState</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="immediate">3</spirit:left>
+            <spirit:right spirit:format="long" spirit:resolve="immediate">0</spirit:right>
+          </spirit:vector>
           <spirit:wireTypeDefs>
             <spirit:wireTypeDef>
               <spirit:typeName>wire</spirit:typeName>
@@ -852,11 +880,11 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogsynthesis_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../../../ipshared/HLS_Pulsar/backlitLCD_v1_0/72eda608/hdl/backlitLCD_v1_0_S_AXI.v</spirit:name>
+        <spirit:name>../../../../ipshared/HLS_Pulsar/backlitLCD_v1_0/ee2835df/hdl/backlitLCD_v1_0_S_AXI.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../../../ipshared/HLS_Pulsar/backlitLCD_v1_0/72eda608/hdl/backlitLCD_v1_0.v</spirit:name>
+        <spirit:name>../../../../ipshared/HLS_Pulsar/backlitLCD_v1_0/ee2835df/hdl/backlitLCD_v1_0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -935,15 +963,15 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>backlitLCD_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>17</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2014-10-21T06:52:21Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>29</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2014-10-22T03:36:23Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2014.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="a81b66a3"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="bf492af2"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="3039a47e"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="71d1fdc1"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="613c97f4"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="ca952019"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="f53f98cc"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="f65e1efc"/>
     </xilinx:packagingInfo>

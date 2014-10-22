@@ -266,7 +266,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>f3e570ea</spirit:value>
+            <spirit:value>be1c8831</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -282,7 +282,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>f3e570ea</spirit:value>
+            <spirit:value>be1c8831</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -403,6 +403,36 @@
         <spirit:name>inp</spirit:name>
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>write</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>writeState</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="immediate">3</spirit:left>
+            <spirit:right spirit:format="long" spirit:resolve="immediate">0</spirit:right>
+          </spirit:vector>
           <spirit:wireTypeDefs>
             <spirit:wireTypeDef>
               <spirit:typeName>wire</spirit:typeName>
@@ -758,7 +788,7 @@
       <spirit:file>
         <spirit:name>hdl/backlitLCD_v1_0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_09bf3bcf</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_9c87eb0c</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -882,15 +912,15 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>backlitLCD_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>17</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2014-10-21T06:52:21Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>29</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2014-10-22T03:36:23Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2014.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="a81b66a3"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="bf492af2"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="3039a47e"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="71d1fdc1"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="613c97f4"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="ca952019"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="f53f98cc"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="f65e1efc"/>
     </xilinx:packagingInfo>

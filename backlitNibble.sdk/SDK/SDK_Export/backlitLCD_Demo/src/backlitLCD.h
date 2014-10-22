@@ -12,7 +12,15 @@
 #define BACKLITLCD_S_AXI_SLV_REG1_OFFSET 4
 #define BACKLITLCD_S_AXI_SLV_REG2_OFFSET 8
 #define BACKLITLCD_S_AXI_SLV_REG3_OFFSET 12
+#define LCD_ADDR XPAR_BACKLITLCD_0_S_AXI_BASEADDR
 
+// First four Bits
+#define WRITE 1 // X X X WRITE
+
+// Second four Bits (DB7:DB4)
+#define LCD_INIT 48 // 0x3
+
+#define LEVEL 65280 // The varying voltage for v0 instead of POT. (Don't leave it as define)
 
 /**************************** Type Definitions *****************************/
 /**
@@ -83,12 +91,12 @@ For the complete code see http://www.xilinx.com/products/boards/s3estarter/refer
 */
 
 /* define a structure with bit fields */
-typedef struct
-{
-  unsigned int write : 1;
-  unsigned int level : 8;
-  unsigned int db : 8;
-} lcd;
+//typedef struct
+//{
+//  unsigned int write : 1;
+//  unsigned int level : 8;
+//  unsigned int db : 8;
+//} lcd;
 
 
 //internal funtions
@@ -101,7 +109,7 @@ void SetDDRAM(int Addr);
 
 //////////////////////user functions///////////////////
 //initializes lcd
-void INIT_LCD (lcd screen);
+void INIT_LCD ();
 
 //clears display
 void DisplayClear();

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Oct 21 00:03:59 2014" VIVADOVERSION="2014.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Oct 21 20:51:05 2014" VIVADOVERSION="2014.1">
 
   <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="system_imp" PACKAGE="csg324" SPEEDGRADE="-1"/>
 
@@ -42,6 +42,16 @@
     <PORT DIR="O" NAME="inp" SIGIS="undef" SIGNAME="backlitLCD_0_inp">
       <CONNECTIONS>
         <CONNECTION INSTANCE="backlitLCD_0" PORT="inp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="write" SIGIS="undef" SIGNAME="backlitLCD_0_write">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="backlitLCD_0" PORT="write"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="writeState" SIGIS="undef" SIGNAME="backlitLCD_0_writeState">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="backlitLCD_0" PORT="writeState"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -247,6 +257,16 @@
         <PORT DIR="O" NAME="inp" SIGIS="undef" SIGNAME="backlitLCD_0_inp">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="inp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="write" SIGIS="undef" SIGNAME="backlitLCD_0_write">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="write"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="writeState" SIGIS="undef" SIGNAME="backlitLCD_0_writeState">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="writeState"/>
           </CONNECTIONS>
         </PORT>
         <PORT CLKFREQUENCY="100000000" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="clk_wiz_1_clk_out1">

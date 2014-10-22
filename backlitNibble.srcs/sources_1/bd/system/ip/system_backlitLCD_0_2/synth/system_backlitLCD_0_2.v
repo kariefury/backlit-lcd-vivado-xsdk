@@ -48,7 +48,7 @@
 
 
 // IP VLNV: HLS_Pulsar:user:backlitLCD:1.0
-// IP Revision: 17
+// IP Revision: 29
 
 (* X_CORE_INFO = "backlitLCD_v1_0,Vivado 2014.1" *)
 (* CHECK_LICENSE_TYPE = "system_backlitLCD_0_2,backlitLCD_v1_0,{}" *)
@@ -60,6 +60,8 @@ module system_backlitLCD_0_2 (
   db,
   v0,
   inp,
+  write,
+  writeState,
   s_axi_aclk,
   s_axi_aresetn,
   s_axi_awaddr,
@@ -89,6 +91,8 @@ output wire en;
 output wire [3 : 0] db;
 output wire v0;
 output wire inp;
+output wire write;
+output wire [3 : 0] writeState;
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 S_AXI_CLK CLK" *)
 input wire s_axi_aclk;
 (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 S_AXI_RST RST" *)
@@ -142,6 +146,8 @@ input wire s_axi_rready;
     .db(db),
     .v0(v0),
     .inp(inp),
+    .write(write),
+    .writeState(writeState),
     .s_axi_aclk(s_axi_aclk),
     .s_axi_aresetn(s_axi_aresetn),
     .s_axi_awaddr(s_axi_awaddr),

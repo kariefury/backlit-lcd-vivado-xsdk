@@ -51,9 +51,40 @@ start_step init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param gui.test TreeTableDev
-  open_checkpoint /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.runs/impl_1/system_wrapper.dcp
+  set_property design_mode GateLvl [current_fileset]
   set_property webtalk.parent_dir /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.cache/wt [current_project]
   set_property parent.project_dir /home/carrie/git/backlit-lcd-vivado-xsdk [current_project]
+  add_files -quiet /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.runs/synth_1/system_wrapper.dcp
+  add_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/system.bmm
+  set_property SCOPED_TO_REF system [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/system.bmm]
+  set_property SCOPED_TO_CELLS {} [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/system.bmm]
+  add_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf
+  set_property SCOPED_TO_REF system [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf]
+  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf]
+  read_xdc -ref system_microblaze_0_0 -cells U0 /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0.xdc]
+  read_xdc -ref system_dlmb_v10_0 -cells U0 /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0.xdc]
+  read_xdc -ref system_ilmb_v10_0 -cells U0 /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0.xdc]
+  read_xdc -ref system_microblaze_0_axi_intc_0 -cells U0 /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0.xdc]
+  read_xdc -ref system_mdm_1_0 -cells U0 /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc]
+  read_xdc -ref system_clk_wiz_1_0 -cells inst /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc]
+  read_xdc -prop_thru_buffers -ref system_clk_wiz_1_0 -cells inst /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_board.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0_board.xdc]
+  read_xdc -ref system_rst_clk_wiz_1_100M_0 /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0.xdc]
+  read_xdc -prop_thru_buffers -ref system_rst_clk_wiz_1_100M_0 /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0_board.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_0/system_rst_clk_wiz_1_100M_0_board.xdc]
+  read_xdc -ref system_axi_timer_0_0 /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0.xdc
+  set_property processing_order EARLY [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0.xdc]
+  read_xdc /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/constrs_1/imports/Artix7/Nexys4_Master.xdc
+  read_xdc -ref system_microblaze_0_axi_intc_0 -cells U0 /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_clocks.xdc
+  set_property processing_order LATE [get_files /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_clocks.xdc]
+  link_design -top system_wrapper -part xc7a100tcsg324-1
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {

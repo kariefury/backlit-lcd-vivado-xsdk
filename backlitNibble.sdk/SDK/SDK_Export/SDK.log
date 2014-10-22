@@ -593,3 +593,197 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 00:08:00 INFO  : Processor reset is completed for microblaze_0
 00:08:14 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
 00:08:25 INFO  : Processor reset is completed for microblaze_0
+01:30:01 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+09:19:49 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+09:19:49 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+09:19:50 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+09:19:50 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+09:19:52 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:19:53 INFO  : 
+09:19:54 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+09:19:54 INFO  : Clearing existing target manager status.
+09:19:54 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+09:25:12 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+09:30:14 INFO  : Processor reset is completed for microblaze_0
+09:30:18 INFO  : Processor reset is completed for microblaze_0
+10:00:31 INFO  : Processor reset is completed for microblaze_0
+10:01:07 INFO  : Processor reset is completed for microblaze_0
+10:09:38 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:09:38 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+10:09:40 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+10:09:40 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+10:09:42 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:09:43 INFO  : 
+10:09:43 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+10:09:43 INFO  : Clearing existing target manager status.
+10:09:43 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:12:46 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+10:13:25 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+10:14:28 INFO  : Processor reset is completed for microblaze_0
+10:15:12 INFO  : Processor reset is completed for microblaze_0
+10:18:31 INFO  : Processor reset is completed for microblaze_0
+10:18:58 INFO  : Processor reset is completed for microblaze_0
+10:19:17 INFO  : Processor reset is completed for microblaze_0
+10:20:56 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+10:21:02 INFO  : Processor reset is completed for microblaze_0
+10:21:34 INFO  : Processor reset is completed for microblaze_0
+10:23:21 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:23:21 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+10:23:23 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+10:23:23 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+10:23:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:23:26 INFO  : 
+10:23:27 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+10:23:27 INFO  : Clearing existing target manager status.
+10:23:27 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:23:47 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+10:23:57 INFO  : Processor reset is completed for microblaze_0
+10:26:32 INFO  : Processor reset is completed for microblaze_0
+10:27:58 INFO  : Processor reset is completed for microblaze_0
+10:28:38 INFO  : Processor reset is completed for microblaze_0
+10:29:04 INFO  : Processor reset is completed for microblaze_0
+10:39:56 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:39:56 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+10:39:57 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+10:39:57 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+10:39:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:40:00 INFO  : 
+10:40:01 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+10:40:01 INFO  : Clearing existing target manager status.
+10:40:01 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:47:11 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:47:11 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+10:47:12 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+10:47:12 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+10:47:14 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:47:15 INFO  : 
+10:47:16 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+10:47:16 INFO  : Clearing existing target manager status.
+10:47:16 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:47:35 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+10:48:30 INFO  : Processor reset is completed for microblaze_0
+10:49:56 INFO  : Processor reset is completed for microblaze_0
+10:50:11 INFO  : Processor reset is completed for microblaze_0
+10:50:50 INFO  : Processor reset is completed for microblaze_0
+10:51:09 INFO  : Processor reset is completed for microblaze_0
+10:51:36 INFO  : Processor reset is completed for microblaze_0
+10:51:53 INFO  : Processor reset is completed for microblaze_0
+11:09:08 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:09:08 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+11:09:10 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+11:09:10 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+11:09:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:09:13 INFO  : 
+11:09:14 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+11:09:14 INFO  : Clearing existing target manager status.
+11:09:14 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:09:53 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+11:10:02 INFO  : Processor reset is completed for microblaze_0
+11:10:11 INFO  : Processor reset is completed for microblaze_0
+11:10:58 INFO  : Processor reset is completed for microblaze_0
+11:11:56 INFO  : Processor reset is completed for microblaze_0
+11:12:41 INFO  : Processor reset is completed for microblaze_0
+11:34:13 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:34:13 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+11:34:15 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+11:34:15 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+11:34:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:34:18 INFO  : 
+11:34:18 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+11:34:18 INFO  : Clearing existing target manager status.
+11:34:18 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:34:28 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+11:34:57 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+11:35:58 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+11:36:10 INFO  : Processor reset is completed for microblaze_0
+11:36:55 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:36:55 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+11:36:57 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+11:36:57 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+11:36:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:37:00 INFO  : 
+11:37:00 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+11:37:00 INFO  : Clearing existing target manager status.
+11:37:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:37:56 INFO  : Processor reset is completed for microblaze_0
+11:41:09 INFO  : Processor reset is completed for microblaze_0
+11:41:34 INFO  : Processor reset is completed for microblaze_0
+11:43:07 INFO  : Processor reset is completed for microblaze_0
+11:43:16 INFO  : Processor reset is completed for microblaze_0
+11:44:50 INFO  : Processor reset is completed for microblaze_0
+11:45:36 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+11:46:17 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+11:47:48 INFO  : Processor reset is completed for microblaze_0
+14:06:46 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+14:06:46 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+14:06:48 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+14:06:48 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+14:06:50 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:06:51 INFO  : 
+14:06:52 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+14:06:52 INFO  : Clearing existing target manager status.
+14:06:52 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:07:27 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+14:08:10 INFO  : Processor reset is completed for microblaze_0
+14:18:34 INFO  : Processor reset is completed for microblaze_0
+14:20:58 INFO  : Processor reset is completed for microblaze_0
+14:25:30 INFO  : Processor reset is completed for microblaze_0
+14:26:03 INFO  : Processor reset is completed for microblaze_0
+14:28:59 INFO  : Processor reset is completed for microblaze_0
+14:29:17 INFO  : Processor reset is completed for microblaze_0
+14:31:19 INFO  : Processor reset is completed for microblaze_0
+14:34:03 INFO  : Processor reset is completed for microblaze_0
+14:52:31 INFO  : Processor reset is completed for microblaze_0
+15:01:48 INFO  : Processor reset is completed for microblaze_0
+16:30:04 INFO  : Processor reset is completed for microblaze_0
+16:31:46 INFO  : Processor reset is completed for microblaze_0
+16:31:55 INFO  : Processor reset is completed for microblaze_0
+16:33:01 INFO  : Processor reset is completed for microblaze_0
+16:33:21 INFO  : Processor reset is completed for microblaze_0
+16:36:20 INFO  : Processor reset is completed for microblaze_0
+16:36:31 INFO  : Processor reset is completed for microblaze_0
+16:36:39 INFO  : Processor reset is completed for microblaze_0
+16:36:51 INFO  : Processor reset is completed for microblaze_0
+16:37:44 INFO  : Processor reset is completed for microblaze_0
+16:48:04 INFO  : Processor reset is completed for microblaze_0
+16:49:41 INFO  : Processor reset is completed for microblaze_0
+16:53:01 INFO  : Processor reset is completed for microblaze_0
+16:53:10 INFO  : Processor reset is completed for microblaze_0
+16:54:51 INFO  : Processor reset is completed for microblaze_0
+16:55:19 INFO  : Processor reset is completed for microblaze_0
+17:08:29 INFO  : Processor reset is completed for microblaze_0
+17:10:22 INFO  : Processor reset is completed for microblaze_0
+17:11:16 INFO  : Processor reset is completed for microblaze_0
+17:11:32 INFO  : Processor reset is completed for microblaze_0
+17:11:46 INFO  : Processor reset is completed for microblaze_0
+18:10:20 INFO  : Processor reset is completed for microblaze_0
+18:13:12 INFO  : Processor reset is completed for microblaze_0
+18:13:27 INFO  : Processor reset is completed for microblaze_0
+19:01:45 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+20:51:06 INFO  : Project hw_platform_0's source hardware specification located at /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:51:06 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system.xml into /hw_platform_0/system.xml.
+20:51:08 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper.bit into /hw_platform_0/system_wrapper.bit.
+20:51:08 INFO  : Copied contents of /home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw/system_wrapper_bd.bmm into /hw_platform_0/system_wrapper_bd.bmm.
+20:51:10 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:51:11 INFO  : 
+20:51:11 INFO  : Updating hardware inferred compiler options for backlitLCD_Demo.
+20:51:11 INFO  : Clearing existing target manager status.
+20:51:11 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:52:10 INFO  : FPGA configured successfully with bitstream "/home/carrie/git/backlit-lcd-vivado-xsdk/backlitNibble.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:54:43 INFO  : Processor reset is completed for microblaze_0
+21:01:02 INFO  : Processor reset is completed for microblaze_0
+21:04:32 INFO  : Processor reset is completed for microblaze_0
+21:04:47 INFO  : Processor reset is completed for microblaze_0
+21:15:56 INFO  : Processor reset is completed for microblaze_0
+21:17:01 INFO  : Processor reset is completed for microblaze_0
+21:18:55 INFO  : Processor reset is completed for microblaze_0

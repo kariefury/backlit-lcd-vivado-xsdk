@@ -1,7 +1,7 @@
 //Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2014.1 (lin64) Build 881834 Fri Apr  4 14:00:25 MDT 2014
-//Date        : Mon Oct 20 23:53:50 2014
+//Date        : Tue Oct 21 20:36:40 2014
 //Host        : fury running 64-bit Ubuntu 14.04.1 LTS
 //Command     : generate_target system_wrapper.bd
 //Design      : system_wrapper
@@ -17,7 +17,9 @@ module system_wrapper
     inp,
     rs,
     rw,
-    v0);
+    v0,
+    write,
+    writeState);
   input btnCpuReset;
   input clock_rtl;
   output [3:0]db;
@@ -26,6 +28,8 @@ module system_wrapper
   output rs;
   output rw;
   output v0;
+  output write;
+  output [3:0]writeState;
 
   wire btnCpuReset;
   wire clock_rtl;
@@ -35,6 +39,8 @@ module system_wrapper
   wire rs;
   wire rw;
   wire v0;
+  wire write;
+  wire [3:0]writeState;
 
 system system_i
        (.btnCpuReset(btnCpuReset),
@@ -44,5 +50,7 @@ system system_i
         .inp(inp),
         .rs(rs),
         .rw(rw),
-        .v0(v0));
+        .v0(v0),
+        .write(write),
+        .writeState(writeState));
 endmodule
